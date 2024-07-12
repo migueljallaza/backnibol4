@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:4200"
+  origin: "https://incandescent-crepe-056582.netlify.app"
 };
 
 app.use(cors(corsOptions));
